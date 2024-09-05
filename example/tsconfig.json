@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "face-liveness-detection": ["../src/index"],
+      "face-liveness-detection/*": ["../src/*"]
+    }
+  }
+}
