@@ -10,13 +10,18 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.platforms      = { :ios => '13.4', :tvos => '13.4' }
+  s.platforms      = { :ios => '14.0', :tvos => '13.4' }
   s.swift_version  = '5.4'
   s.source         = { git: 'https://github.com/manan-schmooze/face-liveness-detection' }
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'
 
+  spm_dependency(s,  
+  url: 'https://github.com/aws-amplify/amplify-ui-swift-liveness', 
+  requirement: {kind: 'upToNextMajorVersion', minimumVersion: '1.1.0'}, 
+  products: ['FaceLiveness'] 
+) 
   # Swift/Objective-C compatibility
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES',
