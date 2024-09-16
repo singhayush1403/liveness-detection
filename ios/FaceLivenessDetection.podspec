@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   spm_dependency(s,  
   url: 'https://github.com/aws-amplify/amplify-ui-swift-liveness', 
-  requirement: {kind: 'upToNextMajorVersion', minimumVersion: '1.1.0'}, 
+  requirement: {kind: 'upToNextMajorVersion', minimumVersion: '1.3.2'}, 
   products: ['FaceLiveness'] 
 ) 
   # Swift/Objective-C compatibility

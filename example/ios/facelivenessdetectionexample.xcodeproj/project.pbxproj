@@ -11,8 +11,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		480856BC3202F0941B83EE31 /* Pods_facelivenessdetectionexample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C5769BDBBA50E55050BAB0 /* Pods_facelivenessdetectionexample.framework */; };
 		81389E0BA02B46EEB1B71180 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9C1BE097447CD8A5A1964 /* noop-file.swift */; };
-		A46871F2A64AB7C2FB73427C /* Pods_facelivenessdetectionexample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE836C948686CAFFA11F9B75 /* Pods_facelivenessdetectionexample.framework */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		BBE420C36C4E494751CF6D09 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D93F5375DAF4D019CEAA3EC1 /* PrivacyInfo.xcprivacy */; };
@@ -29,11 +29,11 @@
 		6C2E3173556A471DD304B334 /* Pods-facelivenessdetectionexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facelivenessdetectionexample.debug.xcconfig"; path = "Target Support Files/Pods-facelivenessdetectionexample/Pods-facelivenessdetectionexample.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-facelivenessdetectionexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facelivenessdetectionexample.release.xcconfig"; path = "Target Support Files/Pods-facelivenessdetectionexample/Pods-facelivenessdetectionexample.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = facelivenessdetectionexample/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AE836C948686CAFFA11F9B75 /* Pods_facelivenessdetectionexample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_facelivenessdetectionexample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D9C1BE097447CD8A5A1964 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "facelivenessdetectionexample/noop-file.swift"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		D93F5375DAF4D019CEAA3EC1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = facelivenessdetectionexample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F5C5769BDBBA50E55050BAB0 /* Pods_facelivenessdetectionexample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_facelivenessdetectionexample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-facelivenessdetectionexample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46871F2A64AB7C2FB73427C /* Pods_facelivenessdetectionexample.framework in Frameworks */,
+				480856BC3202F0941B83EE31 /* Pods_facelivenessdetectionexample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				AE836C948686CAFFA11F9B75 /* Pods_facelivenessdetectionexample.framework */,
+				F5C5769BDBBA50E55050BAB0 /* Pods_facelivenessdetectionexample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
